@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Chart</class>
+ <widget class="QWidget" name="Chart">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>702</width>
+    <height>476</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>添加温度数据</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout" stretch="1,11">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout" stretch="2,4,2,1,2,1,2">
+     <item>
+      <widget class="QPushButton" name="pushButton_listen">
+       <property name="text">
+        <string>开始监听</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_listen">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_insert">
+       <property name="text">
+        <string>修改</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>时间：</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_time">
+       <item>
+        <property name="text">
+         <string>0:00~2:00</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2:00~4:00</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>4:00~6:00</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>6:00~8:00</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>8:00~10:00</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>10:00~12:00</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>12:00~14:00</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>14:00~16:00</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>16:00~18:00</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>18:00~20:00</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>20:00~22:00</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>22:00~24:00</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>温度：</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QChartView" name="widget" native="true"/>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QChartView</class>
+   <extends>QWidget</extends>
+   <header>qchartview.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

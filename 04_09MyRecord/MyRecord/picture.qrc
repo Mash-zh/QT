@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/new/picture"/>
+    <qresource prefix="/picture"/>
+    <qresource prefix="/image"/>
+    <qresource prefix="/">
+        <file>item.png</file>
+        <file>recode.png</file>
+        <file>modify.png</file>
+        <file>return.png</file>
+        <file>delete.png</file>
+        <file>refresh.jpg</file>
+        <file>sum.jpg</file>
+        <file>fresh.png</file>
+    </qresource>
+</RCC>
